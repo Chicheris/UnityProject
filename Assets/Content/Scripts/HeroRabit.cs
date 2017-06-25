@@ -12,13 +12,15 @@ public class HeroRabit : MonoBehaviour
 
     public float speed = 1;
     Rigidbody2D myBody = null;
- 
+
+
+    Transform heroParent = null;
     void Start()
     {
         myBody = this.GetComponent<Rigidbody2D>();
         LevelController.current.setStartPosition(transform.position);
-      
 
+        this.heroParent = this.transform.parent;
     }
     
     void Update()
@@ -111,6 +113,20 @@ public class HeroRabit : MonoBehaviour
 
                 
             }
+        }
+    }
+    static void SetNewParent(Transform obj, Transform new_parent)
+    {
+        if (obj.transform.parent != new_parent)
+        {
+            //Засікаємо позицію у Глобальних координатах
+            Vector3 pos = obj.transform.position;
+            //Встановлюємо нового батька
+            obj.transform.parent = new_parent;
+            //Після зміни батька координати кролика зміняться
+            //Оскільки вони тепер відносно іншого об’єкта
+            //повертаємо кролика в ті самі глобальні координати
+            obj.transform.position = pos;
         }
     }
 }
