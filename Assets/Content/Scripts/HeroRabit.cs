@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HeroRabit : MonoBehaviour
 {
@@ -118,7 +119,12 @@ public class HeroRabit : MonoBehaviour
 
             }
         }
+        if (Input.GetKey("escape"))
+        {
+            SceneManager.LoadScene("Menu");
     }
+}
+
 
     /*  void OnTriggerEnter2D(Collider2D collider)
       {
