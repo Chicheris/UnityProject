@@ -165,8 +165,13 @@ public class HeroRabit : MonoBehaviour
         if (timeleft < 0)
         {
             animator.SetBool("die", false);
-            transform.position = startingPosition;
+            StartPosition();
             speed = speed2;
         }
+    }
+  public   void StartPosition()
+    {
+        transform.position = startingPosition;
+
     }
 }
