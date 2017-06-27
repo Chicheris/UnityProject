@@ -15,30 +15,30 @@ Platform assembly: C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\
 Loading C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.037 seconds
+- Completed reload, in  0.052 seconds
 Platform assembly: C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\mwm33\Desktop\Github\UnityProject\Game_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.538551 ms
+UnloadTime: 1.687521 ms
 NullReferenceException: Object reference not set to an instance of an object
   at Play.Start () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.615373 ms
+UnloadTime: 6.207819 ms
 
 Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 457.
-Total: 0.635065 ms (FindLiveObjects: 0.075694 ms CreateObjectMapping: 0.060726 ms MarkObjects: 0.261724 ms  DeleteObjects: 0.236064 ms)
+Total: 0.385743 ms (FindLiveObjects: 0.039344 ms CreateObjectMapping: 0.034639 ms MarkObjects: 0.174482 ms  DeleteObjects: 0.136849 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.422521 ms
+UnloadTime: 1.277401 ms
 
 Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 353.
-Total: 0.774908 ms (FindLiveObjects: 0.047897 ms CreateObjectMapping: 0.040627 ms MarkObjects: 0.310904 ms  DeleteObjects: 0.374624 ms)
+Total: 1.525012 ms (FindLiveObjects: 0.061154 ms CreateObjectMapping: 0.080398 ms MarkObjects: 0.494795 ms  DeleteObjects: 0.886525 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at Play.Start () [0x00000] in <filename unknown>:0 
@@ -46,5 +46,5 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 36cc -> priority: 1 
-  Thread -> id: 458c -> priority: 1 
+  Thread -> id: 4104 -> priority: 1 
+  Thread -> id: 1054 -> priority: 1 
